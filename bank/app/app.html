@@ -1,0 +1,42 @@
+<div class="cover-container calc-dialog" >
+<div>
+  <h1 class="maintitel">Dream calculator</h1>
+</div>
+<div><input type=checkbox id="serviceMock" [ngModel]="useRealService" (change)="changeService($event)"><label for="serviceMock" class="">Use real service</label></div>
+
+<form class="text-left" style="margin:5em 1em;" [ngFormModel]="form" (keyup)="onKey($event)">
+<div class="row">
+
+  <div class="form-group col-md-4">
+    <label for="amount" >Loan amount</label>
+    <input type="text" ngControl="amount" placeholder="NOK" id="amount" class="form-control" (focus)="onFocusAmount($event)" #amount="ngForm">
+    <div [hidden]="amount.valid">amount between 10000 and 100000000</div>
+  </div>
+
+  <div class="form-group col-md-4">
+    <label for="years">Down payments years</label>
+    <input type="text" ngControl="years" placeholder="years" class="form-control" id="years" (focus)="onFocusYears($event)" #years="ngForm">
+    <div [hidden]="years.valid">years between 1 and 40 </div>
+  </div>
+
+  <div class="form-group col-md-4">
+    <label for="rate">Interest rate</label>
+    <input type="text" ngControl="rate" placeholder="%" class="form-control" id="rate" (focus)="onFocusRate($event)" #rate="ngForm">
+    <div [hidden]="rate.valid">rate between 0 and 20</div>
+  </div>
+
+</div>
+</form>
+
+<div *ngIf="!errorMessage">
+  <h1>Monthly payment</h1>
+  {{payment|currency: 'nok': 2}}
+</div>
+<div *ngIf="errorMessage">
+  <h1>No money left. Try again later.</h1>
+</div>
+<div *ngIf="!errorMessage" style="margin-top:4em;">
+  <h3>Repayment information</h3>
+ <chart [options]="chartOptions"></chart>
+</div>
+</div>

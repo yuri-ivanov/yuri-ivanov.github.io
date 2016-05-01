@@ -1,0 +1,42 @@
+/* Master Styles */
+/*
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body, input[text], button {
+  color: #888;
+  font-family: Cambria, Georgia;
+}
+*/
+body {
+  font-size: 16px;
+}
+
+.maintitel{
+  font-size: 350%;
+}
+
+.pic-bg {
+  /*park-s.jpg*/
+  background-image: url('../img/family-hd.jpg');
+  background-repeat: no-repeat;
+  background-size: 1920px 1200px;
+  background-position: center;
+}
+
+.calc-dialog {
+  background-color:rgba(0, 0, 0, 0.5);
+  border-radius:1.5%;
+  padding:2em 1em;
+}
+
+.highcharts-container {
+  margin: 0.1em auto;
+}
