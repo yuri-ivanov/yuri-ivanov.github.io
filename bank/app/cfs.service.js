@@ -29,7 +29,7 @@ System.register(['angular2/core', 'angular2/http', 'rxjs/Observable'], function(
                     this.http = http;
                     this.ciceroUrl = "https://cfs-ws-itera.cicero.no/cfp/6/ws/rest/calculator/calculateLoan";
                     this.serviceUrl = this.ciceroUrl;
-                    this.mockUrl = "../calculateLoan.json";
+                    this.mockUrl = "calculateLoan.json";
                 }
                 CfsService.prototype.useRealService = function (useReal) {
                     if (useReal) {
