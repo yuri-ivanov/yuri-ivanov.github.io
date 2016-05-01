@@ -178,7 +178,7 @@ System.register(['angular2/core', 'angular2/common', 'angular2/http', 'angular2-
                 };
                 App.prototype.formatViewValues = function () {
                     this.form.controls['amount'].updateValue(this.amount + " kr");
-                    this.form.controls['years'].updateValue(this.years + " kr");
+                    this.form.controls['years'].updateValue(this.years + " år");
                     this.form.controls['rate'].updateValue(this.rate + " %");
                 };
                 App.prototype.parseValues = function () {
