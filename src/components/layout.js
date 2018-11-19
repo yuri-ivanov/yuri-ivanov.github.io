@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
+import './bootstrap.min.css';
 import './layout.css'
 
 const Layout = ({ children }) => (
@@ -36,7 +37,7 @@ const Layout = ({ children }) => (
             padding: '0px 1.0875rem 1.45rem',
             paddingTop: 0,
           }}
-        >
+        >children
           {children}
         </div>
       </>
