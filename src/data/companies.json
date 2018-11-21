@@ -2,6 +2,64 @@
     {
         "id": "nordea",
         "company": "Nordea",
-        "description":"one of the biggest bank in Scandinavia"
+        "description":"one of the biggest bank in Scandinavia",
+        "url": "https://www.nordea.com",
+        "logo": ""
+    },
+    {
+        "id": "capgemini",
+        "company": "Capgemini Sverige AB",
+        "description": "",
+        "url": "https://www.capgemini.com/se-en/",
+        "logo": "https://www.capgemini.com/se-en/wp-content/themes/capgemini-2018-02/assets/images/logo.svg"
+    },
+    {
+        "id": "moller",
+        "company": "MøllerGruppen AS",
+        "description": "Møller Mobility Gropup is leading company in Norway and Baltic countries withen import, sale, financial leasing and other investments. It is operating in Norway, Sweden, Latvia and Lithuania.",
+        "url": "https://moller.no/",
+        "logo": "/images/logos/moller.svg"
+    },
+    {
+        "id": "cgi",
+        "company": "CGI Group Inc", 
+        "description": "global information technology (IT) consulting, systems integration, outsourcing, and solutions company",
+        "url": "https://www.cgi.com",
+        "logo": "https://www.cgi.com/sites/all/themes/cgi/logo.png"
+    },
+    {
+        "id": "ameria",
+        "company":"Ameria DE",
+        "description": "IT outsourcing company ",
+        "logo": "https://ameria.de/wp-content/themes/ameria/assets/img/alw.png"
+    },
+    {
+        "id": "bossdev",
+        "company": "BOSSdev",
+        "description": "IT outsource company"
+    },
+    {
+        "id": "offshorecreations",
+        "company": "OffshoreCreations",
+        "description": "IT outsource company"
+    },
+    {
+        "id": "upsu",
+        "company": "United Payment System of Ukraine",
+        "description": "local payment card processing company"
+    },
+    {
+        "id": "leagueapps",
+        "company": "Leagueapps",
+        "description": "Leagueapps is a product for organizing and managing sports events like matches, tournaments and club memberships.",
+        "url": "http://leagueapps.com/",
+        "logo": "https://leagueapps.com/wp-content/uploads/2018/06/logo_darkgreen.png"
+    },
+    {
+        "id": "relevanttraffic",
+        "company": "Relevant Traffic Sweden AB",
+        "description": "Relevanttraffic was selling SEO services",
+        "url": "https://www.relevanttraffic.se",
+        "logo": ""
     }
 ]
