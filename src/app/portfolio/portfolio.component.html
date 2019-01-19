@@ -1,6 +1,16 @@
-<p>
-  portfolio works!
-</p>
-<div *ngFor="let p of projects">
-  {{p.projectName}}
-</div>
+
+<section *ngFor="let p of projects">
+  <div>{{p.startDate}} - {{p.endDate}}</div>
+  <h4>{{p.company}}</h4>
+  <h3>{{p.projectName}}</h3>
+  <p>{{p.description}}</p>
+  skills
+  <ul>
+    <li *ngFor="let skill of p.skills">{{skill}}</li>
+  </ul>
+  Tools
+  <ul>
+    <li *ngFor="let tool of p.tools">{{tool}}</li>
+  </ul>
+  <hr>
+</section>
