@@ -2,14 +2,14 @@
     {
         "id": "nordea",
         "company": "Nordea",
-        "description":"one of the biggest bank in Scandinavia",
+        "description":"Nordea Bank Danmark A/S is a bank in Denmark. It is part of Nordea - the largest financial group in the Nordic countries.",
         "url": "https://www.nordea.com",
-        "logo": ""
+        "logo": "images/logos/nordea-logo.svg"
     },
     {
         "id": "capgemini",
         "company": "Capgemini Sverige AB",
-        "description": "",
+        "description": "Capgemini SE is a French multinational professional services and business consulting corporation headquartered in Paris, France.",
         "url": "https://www.capgemini.com/se-en/",
         "logo": "https://www.capgemini.com/se-en/wp-content/themes/capgemini-2018-02/assets/images/logo.svg"
     },
@@ -29,9 +29,10 @@
     },
     {
         "id": "ameria",
-        "company":"Ameria DE",
-        "description": "IT outsourcing company ",
-        "logo": "https://ameria.de/wp-content/themes/ameria/assets/img/alw.png"
+        "company":"Ameria AG",
+        "description": "IT service management company",
+        "logo": "https://ameria.de/wp-content/themes/ameria/assets/img/alw.png",
+        "url": "https://ameria.de"
     },
     {
         "id": "bossdev",
@@ -41,7 +42,9 @@
     {
         "id": "offshorecreations",
         "company": "OffshoreCreations",
-        "description": "IT outsource company"
+        "description": "We're IT and software development professionals. We've been in business for over 15 years, with hundreds of successful projects. We regularly perform custom software development projects, work on an ongoing basis with both large and small customers, and run the IT departments of several companies. We'd like to discuss your needs with you.",
+        "url": "https://www.offshorecreations.com/",
+        "logo": "/images/logos/offshorecreations-logo.png"
     },
     {
         "id": "upsu",
