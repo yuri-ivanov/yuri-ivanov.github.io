@@ -1,16 +1,27 @@
-
-<section *ngFor="let p of projects">
+<div><input name="skill-filter" placeholder="find skills" [formControl]="filterText" ></div>
+<label *ngIf="findSkills.length>0">
+  filter
+  <ul class="hr-list">
+    <li *ngFor="let fskill of findSkills" (click)="removeSkill(fskill)">
+        <span class="symb v-hide">-</span>
+        <span class="li-text">{{fskill}}</span>
+    </li>
+  </ul>
+</label>
+<section *ngFor="let p of filteredProjects">
   <div>{{p.startDate}} - {{p.endDate}}</div>
   <h4>{{p.company}}</h4>
   <h3>{{p.projectName}}</h3>
   <p>{{p.description}}</p>
   skills
-  <ul>
-    <li *ngFor="let skill of p.skills">{{skill}}</li>
+  <ul class="hr-list" >
+    <li *ngFor="let skill of p.skills" class="add" (click)="addSearchSkill(skill)">
+      <span class="symb v-hide">+</span>
+      <span class="li-text">{{skill}}</span></li>
   </ul>
   Tools
-  <ul>
-    <li *ngFor="let tool of p.tools">{{tool}}</li>
+  <ul class="hr-list">
+    <li *ngFor="let tool of p.tools" >{{tool}}</li>
   </ul>
   <hr>
 </section>

@@ -1,6 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
 body{
     height: calc(100vh - 50px);
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 0 1em;
 }
+p{
+    padding: 1em 0;
+}
+.hr-list{
+    li{
+        display: inline-block;
+        padding-left: 1em;
+    }
+}
+ul{
+    padding:0;
+    list-style-type: none;
+}
+li{
+    padding: 0;
+    margin: 0;
+}
+
+.v-hide{
+    visibility: hidden;
+}
+

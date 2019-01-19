@@ -6,7 +6,7 @@
         "company": "nordea",
         "industry": "finance",
         "projectName": "NEM - Nordea Enterprice Manager",
-        "description": "nem description",
+        "description": "deployment, configuration solution for microservices and java EE applications",
         "skills": ["microservices", "java", "web", "rest"],
         "tools": ["Java 8", "Angular 7", "SpringBoot 2", "Swagger", "Gradle", "Linux", "Oracle"]
     },
