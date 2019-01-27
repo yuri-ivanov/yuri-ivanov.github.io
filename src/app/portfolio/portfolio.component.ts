@@ -40,6 +40,8 @@ export class PortfolioComponent implements OnInit {
     });
   }
 
+  
+
   filterProjects():void{
     this.filteredProjects = this.projects.filter(p => p.hasAllSkills(this.findSkills));
   }

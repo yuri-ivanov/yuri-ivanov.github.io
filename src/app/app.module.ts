@@ -9,6 +9,7 @@ import { IndexComponent } from './index/index.component';
 import {HttpClientModule} from '@angular/common/http';
 import { MenuComponent } from './components/menu/menu.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { CompaniesComponent } from './portfolio/companies/companies.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
     PortfolioComponent,
     ContactComponent,
     IndexComponent,
-    MenuComponent
+    MenuComponent,
+    CompaniesComponent
   ],
   imports: [
     BrowserModule,

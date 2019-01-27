@@ -1,0 +1,15 @@
+<h3>companies</h3>
+<section class="companies">
+  <article *ngFor="let c of companies" class="{{c.id}}" (click)="clickOnCompany(c)">
+    <header>
+      <img *ngIf="c.logo" src="{{c.logo}}" alt="{{c.company}}">
+      <h4 *ngIf="!c.logo">{{c.company}}</h4>
+    </header>
+    <p *ngIf="c.expand">
+      {{c.description}}
+    </p>
+    <div *ngIf="c.expand">
+      <div *ngFor="let p of c.projects" >{{p.endDate | date:'yyyy'}} - <a href="/portfolio/{{p.projectName}}">{{p.projectName}}</a></div>
+    </div>
+  </article>
+</section>

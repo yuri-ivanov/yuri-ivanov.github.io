@@ -1,0 +1,24 @@
+.companies{
+  display: flex;
+  flex-wrap: wrap;
+
+  article{
+    min-width: 10em;
+    max-width: 45%;
+    border: 2px transparent;
+    &:hover{
+        border-bottom: 2px solid gray;
+    }
+
+    img{
+      min-width: 10em;
+      max-width: 100%;
+    }
+  }
+}
+
+.moller{
+  img{
+    background-color: black;
+  }
+}
