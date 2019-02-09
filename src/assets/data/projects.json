@@ -6,9 +6,9 @@
         "company": "nordea",
         "industry": "finance",
         "projectName": "NEM - Nordea Enterprice Manager",
-        "description": "deployment, configuration solution for microservices and java EE applications",
+        "description": "deployment and configuration inhouse solution for java applications",
         "skills": ["microservices", "java", "web", "rest"],
-        "tools": ["Java 8", "Angular 7", "SpringBoot 2", "Swagger", "Gradle", "Linux", "Oracle"]
+        "tools": ["java 8", "angular 7", "springBoot 2", "swagger", "gradle", "linux", "oracle"]
     },
     {
         "startDate": "01/04/2015",
@@ -17,9 +17,26 @@
         "company": "moller",
         "industry": "auto",
         "projectName": "MittBilhold",
-        "description": "mittbilhold description",
+        "description": 
+            ["Mobile/Web application for MøllerGroup customers with VW, Audi,",
+            "Skoda cars. Users can report car damage, order repair and service at Møller",
+            "workshops. It also has some help documentation about car maintenance and",
+            "first help."],
         "skills": ["microservices", "java", "web", "rest"],
-        "tools": ["Java 8", "JavaScript", "Maven", "linux", "postgres"]
+        "tools": ["java 8", "javaScript", "maven", "linux", "postgres"]
+    },
+    {
+        "startDate": "01/04/2014",
+        "endDate": "01/08/2015",
+        "employmentCompany": "MøllerGruppen",
+        "company": "moller",
+        "industry": "auto",
+        "projectName": "DevOps",
+        "description": [
+            "Introduced CI relaese process with maven and Jenkis. ",
+            "Setup Jenkins, Nexus, automatic deployment to WAS."],
+        "skills": ["maven", "jyphon", "bat", "websphere application server (WAS)"],
+        "tools": ["Jenkins", "maven", "WAS"]
     },
     {
         "startDate": "01/04/2013",
@@ -28,8 +45,49 @@
         "company": "moller",
         "industry": "auto",
         "projectName": "SpiderAdapter",
-        "description": "spider adapter description",
+        "description": "This is integration batch module for sending prices to factory system.",
         "skills": ["java", "web", "batch", "rest"],
-        "tools": ["Java 8", "Angular2", "Maven", "linux", "db2"]
-    }
+        "tools": ["java 8", "angular 2", "maven", "linux", "db2"]
+    },
+    {
+        "startDate": "01/04/2013",
+        "endDate": "01/08/2014",
+        "employmentCompany": "MøllerGruppen",
+        "company": "moller",
+        "industry": "auto",
+        "projectName": "TrackAndTrace",
+        "description": [
+            "Internal web product for tracking cars path from factory to dealer. This",
+            "was one of the automation project where were a lot of Excel files before this",
+            "project."],
+        "skills": ["java", "web", "rest", "websphere application server (WAS)"],
+        "tools": ["java 8", "javaScript", "maven", "WAS", "db2"]
+    },
+    {
+        "startDate": "01/05/2010",
+        "endDate": "01/12/2012",
+        "employmentCompany": "CGI Group Inc",
+        "company": "moller",
+        "industry": "el",
+        "projectName": "IS Safe",
+        "description": [
+            "Project: Planning inspections and controls of electrical companies at customer",
+            "locations. Application includes functionality for planning, riskmanagement and casemanagement.",
+            "It integrates with several other applications, like Outlook calendar, archive-system, kis-system and ",
+            " others. IS Safe also supports a mobile solution"
+        ],
+        "skills": ["java", "web", "rest", "websphere application server (WAS)"],
+        "tools": ["java 8", "javaScript", "maven", "WAS", "db2"]
+    },
+    {
+        "startDate": "01/04/2008",
+        "endDate": "01/04/2010",
+        "employmentCompany": "CGI Group Inc",
+        "company": "CGI Group Inc",
+        "industry": "el",
+        "projectName": "AMS meetering",
+        "description": "Communication bridge application between internal customer system and smart meetering systems – enermet, landis+gyr",
+        "skills": ["java", "jsf", "spring", "hibernate", "oracle", "weblogic"],
+        "tools": ["java", "maven", "weblogic", "db2"]
+    }        
 ]

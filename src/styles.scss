@@ -1,11 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 body{
     height: calc(100vh - 50px);
-    margin: 0 auto;
-    padding: 0;
+    margin: 0px;
+    padding: 1em;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    padding: 0 1em;
+    font-size: 120%;
 }
 p{
     padding: 1em 0;
@@ -29,3 +28,14 @@ li{
     visibility: hidden;
 }
 
+.content{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 1024px) {
+    .content{
+        width: auto;
+    }
+    
+}
