@@ -1,8 +1,22 @@
 [
     {
+        "startDate": "02.04.2019",
+        "endDate": "current",
+        "employmentCompany": "capgemini",
+        "company": "pensionsmyndigheten",
+        "industry": "public sector",
+        "projectName": "Ärendehantering",
+        "description": ["Working on Elvis(backend server) and K2 (frontend system in swing). ",
+        "I am mostly working on fixing bugs, learning system, working on improvement of build system.",
+        "Backend server consists of more than 900 projects in one git repository. System is complex because of ",
+        "all rules in swedish pension regulations."],
+        "skills": ["java", "maven", "swing", "sql" ],
+        "tools": ["java 8", "jboss", "Idea", "maven", "linux", "oracle"]
+    },
+    {
         "startDate": "20.09.2018",
         "endDate": "01.03.2019",
-        "employmentCompany": "Capgemini Sweden",
+        "employmentCompany": "capgemini",
         "company": "nordea",
         "industry": "finance",
         "projectName": "NEM - Nordea Enterprice Manager",
@@ -12,7 +26,7 @@
         "dependencies as eureka, sleuth, feign client, spring security.",
         "Frontend was implemented with angular 7 and angular material",
         "with typescript. Security was implemented with https and OpenID"],
-        "skills": ["microservices", "java", "web", "rest", "openid"],
+        "skills": ["microservices", "java", "web", "rest", "openid", "sql"],
         "tools": ["java 8", "angular 7", "springBoot 2", "swagger", "gradle", "linux", "oracle"]
     },
     {
@@ -72,7 +86,7 @@
         "startDate": "01/05/2010",
         "endDate": "01/12/2012",
         "employmentCompany": "CGI Group Inc",
-        "company": "moller",
+        "company": "CGI Group Inc",
         "industry": "el",
         "projectName": "IS Safe",
         "description": [
