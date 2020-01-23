@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { fillProperties } from '@angular/core/src/util/property';
 import { Observable } from 'rxjs';
 import { map, flatMap } from 'rxjs/operators';
 import { FormControl } from '@angular/forms';
