@@ -1,5 +1,8 @@
 .intro{
-    background: #F2F2F2;
+    $grey-background: #F2F2F2;
+
+
+    background: $grey-background;
   
     h1{
         padding: 5em 5em 1em 5rem;
@@ -20,6 +23,5 @@
 }
 
 .about{
-    background: #F2F2F2;
-    padding: 1em 5em 0 5rem;
+    
 }

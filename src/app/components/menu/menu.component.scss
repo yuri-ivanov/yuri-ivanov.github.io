@@ -1,9 +1,18 @@
 .menu{
-    display: flex;
-    padding-bottom: 2em;
-    justify-content: flex-end;
+    $menu-element-space: 1em;
+
+    width: 100%;
+    position: fixed;
+    top:0;
+    text-align: right;
     background-color: #fff;
-    padding: 1em 0.5em;
+
+    nav{
+        display: flex;
+        justify-content: flex-end;
+        padding: 1em 0.5em;
+        transition: 0.4s;
+    }
     
     ul, li{
         display: inline-block;
@@ -14,32 +23,37 @@
     li{
         line-height: 30px;
         margin: 0 5px;
+        padding-left: $menu-element-space;
     }
 
     a {
         padding: 0 0 0 0;
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 0.8em;
-        letter-spacing: 0.05em;
+        font-size: 1em;
+        letter-spacing: 0.03em;
         font-weight: bold;
         color: #333333;
     }
 
     a:hover:after {
-        opacity: 1;
+        opacity: 0.5;
+        width: calc(100% - #{$menu-element-space});
+        transform: scale(1);
     }
 
     a:after {
         content: ' ';
         position: absolute;
         bottom: 0;
-        left: 0;
+        left: $menu-element-space;
         right: 0;
         opacity: 0;
         border-bottom: 2px solid;
         border-color: currentColor;
-        transform: scale(1);
+        width: 10%;
+        transform: scale(0);
+        transition: all 0.5s;
     }
 
 }
