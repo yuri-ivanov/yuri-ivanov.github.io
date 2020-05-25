@@ -1,14 +1,33 @@
 [
     {
+        "startDate": "02.04.2019",
+        "endDate": "current",
+        "employmentCompany": "capgemini",
+        "company": "pensionsmyndigheten",
+        "industry": "public sector",
+        "projectName": "Ärendehantering",
+        "description": ["Working on Elvis(backend server) and K2 (frontend system in swing). ",
+        "I am mostly working on fixing bugs, learning system, working on improvement of build system.",
+        "Backend server consists of more than 900 projects in one git repository. System is complex because of ",
+        "all rules in swedish pension regulations."],
+        "skills": ["java", "maven", "swing", "sql" ],
+        "tools": ["java 8", "jboss", "Idea", "maven", "linux", "oracle"]
+    },
+    {
         "startDate": "20.09.2018",
         "endDate": "01.03.2019",
-        "employmentCompany": "Capgemini Sweden",
+        "employmentCompany": "capgemini",
         "company": "nordea",
         "industry": "finance",
         "projectName": "NEM - Nordea Enterprice Manager",
-        "description": "deployment, configuration solution for microservices and java EE applications",
-        "skills": ["microservices", "java", "web", "rest"],
-        "tools": ["Java 8", "Angular 7", "SpringBoot 2", "Swagger", "Gradle", "Linux", "Oracle"]
+        "description": ["In Nordea i was working on implementation of deployment system",
+        "with microservices in java 8 in backend and angular 7 as frontend.",
+        "On the backend I have used spring boot, spring cloud",
+        "dependencies as eureka, sleuth, feign client, spring security.",
+        "Frontend was implemented with angular 7 and angular material",
+        "with typescript. Security was implemented with https and OpenID"],
+        "skills": ["microservices", "java", "web", "rest", "openid", "sql"],
+        "tools": ["java 8", "angular 7", "springBoot 2", "swagger", "gradle", "linux", "oracle"]
     },
     {
         "startDate": "01/04/2015",
@@ -17,9 +36,26 @@
         "company": "moller",
         "industry": "auto",
         "projectName": "MittBilhold",
-        "description": "mittbilhold description",
+        "description": 
+            ["Mobile/Web application for MøllerGroup customers with VW, Audi,",
+            "Skoda cars. Users can report car damage, order repair and service at Møller",
+            "workshops. It also has some help documentation about car maintenance and",
+            "first help."],
         "skills": ["microservices", "java", "web", "rest"],
-        "tools": ["Java 8", "JavaScript", "Maven", "linux", "postgres"]
+        "tools": ["java 8", "javaScript", "maven", "linux", "postgres"]
+    },
+    {
+        "startDate": "01/04/2014",
+        "endDate": "01/08/2015",
+        "employmentCompany": "MøllerGruppen",
+        "company": "moller",
+        "industry": "auto",
+        "projectName": "DevOps",
+        "description": [
+            "Introduced CI relaese process with maven and Jenkis. ",
+            "Setup Jenkins, Nexus, automatic deployment to WAS."],
+        "skills": ["maven", "jyphon", "bat", "websphere application server (WAS)"],
+        "tools": ["Jenkins", "maven", "WAS"]
     },
     {
         "startDate": "01/04/2013",
@@ -28,8 +64,118 @@
         "company": "moller",
         "industry": "auto",
         "projectName": "SpiderAdapter",
-        "description": "spider adapter description",
+        "description": "This is integration batch module for sending prices to factory system.",
         "skills": ["java", "web", "batch", "rest"],
-        "tools": ["Java 8", "Angular2", "Maven", "linux", "db2"]
+        "tools": ["java 8", "angular 2", "maven", "linux", "db2"]
+    },
+    {
+        "startDate": "01/04/2013",
+        "endDate": "01/08/2014",
+        "employmentCompany": "MøllerGruppen",
+        "company": "moller",
+        "industry": "auto",
+        "projectName": "TrackAndTrace",
+        "description": [
+            "Internal web product for tracking cars path from factory to dealer. This",
+            "was one of the automation project where were a lot of Excel files before this",
+            "project."],
+        "skills": ["java", "web", "rest", "websphere application server (WAS)"],
+        "tools": ["java 8", "javaScript", "maven", "WAS", "db2"]
+    },
+    {
+        "startDate": "01/05/2010",
+        "endDate": "01/12/2012",
+        "employmentCompany": "CGI Group Inc",
+        "company": "CGI Group Inc",
+        "industry": "el",
+        "projectName": "IS Safe",
+        "description": [
+            "Project: Planning inspections and controls of electrical companies at customer",
+            "locations. Application includes functionality for planning, riskmanagement and casemanagement.",
+            "It integrates with several other applications, like Outlook calendar, archive-system, kis-system and ",
+            " others. IS Safe also supports a mobile solution"
+        ],
+        "skills": ["java", "web", "rest", "weblogic"],
+        "tools": ["java 8", "javaScript", "maven", "oracle"]
+    },
+    {
+        "startDate": "01/04/2008",
+        "endDate": "01/04/2010",
+        "employmentCompany": "CGI Group Inc",
+        "company": "CGI Group Inc",
+        "industry": "el",
+        "projectName": "AMS meetering",
+        "description": [
+            "Communication bridge application between internal customer system ",
+            "and smart meetering systems – enermet, landis+gyr"],
+        "skills": ["java", "jsf", "spring", "hibernate", "oracle", "weblogic"],
+        "tools": ["java", "maven", "weblogic", "oracle"]
+    },
+    {
+        "startDate": "01/09/2007",
+        "endDate": "01/02/2008",
+        "employmentCompany": "Ameria DE",
+        "company": "Ameria DE",
+        "industry": "it",
+        "projectName": "accu-chek.de",
+        "description": [
+            "Project: Support and implement new features for web site http://www.accu-chek.de.",
+            "This is medical site for people with diabetes."],
+        "skills": ["java", "jsp", "oracle", "WebSphere"],
+        "tools": ["java", "ant", "WebSphere", "db2"]
+    },
+    {
+        "startDate": "01/01/2007",
+        "endDate": "01/08/2007",
+        "employmentCompany": "BOSSdev Inc",
+        "company": "BOSSdev Inc",
+        "industry": "it",
+        "projectName": "project manager",
+        "description": [
+            "there were several small projects for flash developers to ",
+            "evelop games and sites on flash/flex technology."],
+        "skills": ["ActionScript", "communication"],
+        "tools": ["MS Project", "Scrum", "XPlanner", "Visio"]
+    },
+    {
+        "startDate": "01/11/2005",
+        "endDate": "01/01/2007",
+        "employmentCompany": "BOSSdev Inc",
+        "company": "BOSSdev Inc",
+        "industry": "it",
+        "projectName": "gaming",
+        "description": [
+            "Gambling web site with flash games like pocker.",
+            "Integrating real money games with skill games. Customer plays",
+            "with other people and puts real money in the game. Another part",
+            "was backend administration site."],
+        "skills": ["Java", "Scrum", "jsf", "hibernate", "jboss cache", "jsp", "jaxb", "mina", "postgresql", "maven", "subversion"],
+        "tools": ["Eclipse", "Linux", "Jira", "Visio"]
+    },
+    {
+        "startDate": "01/03/2002",
+        "endDate": "01/09/2005",
+        "employmentCompany": "OffshoreCreations",
+        "company": "OffshoreCreations",
+        "industry": "it",
+        "projectName": "online casino",
+        "description": [
+            "Project: E-Learning management system was online learning",
+            "system. It was using packaging standard SCORM 1.2, 1.3 courses."],
+        "skills": ["Java", "jsp", "struts", "ibatis", "SCORM", "mina", "postgresql", "ant", "cvs"],
+        "tools": ["Eclipse", "PowerDesigner", "JasperReports"]
+    },
+    {
+        "startDate": "01/03/2001",
+        "endDate": "01/03/2002",
+        "employmentCompany": "OffshoreCreations",
+        "company": "OffshoreCreations",
+        "industry": "it",
+        "projectName": "",
+        "description": [
+            "Project: Integration of two payment systems. Integration was",
+            "implemented as a set of TSQL procedures."],
+        "skills": ["T-SQL" ],
+        "tools": ["MS Sql Server 2000", "Visual C++ 6.0,"]
     }
 ]

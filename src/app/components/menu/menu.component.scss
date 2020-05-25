@@ -1,9 +1,45 @@
 .menu{
     display: flex;
     padding-bottom: 2em;
+    justify-content: flex-end;
+    background-color: #fff;
+    padding: 1em 0.5em;
+    
+    ul, li{
+        display: inline-block;
+        position: relative;
+        margin: 0;
+    }
+
+    li{
+        line-height: 30px;
+        margin: 0 5px;
+    }
+
     a {
-        padding: 0 1em 0 0;
+        padding: 0 0 0 0;
         text-decoration: none;
         text-transform: uppercase;
+        font-size: 0.8em;
+        letter-spacing: 0.05em;
+        font-weight: bold;
+        color: #333333;
     }
+
+    a:hover:after {
+        opacity: 1;
+    }
+
+    a:after {
+        content: ' ';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        border-bottom: 2px solid;
+        border-color: currentColor;
+        transform: scale(1);
+    }
+
 }

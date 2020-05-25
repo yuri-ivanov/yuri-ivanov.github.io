@@ -1,0 +1,8 @@
+GET http://api.test.sparebank1.no/common/financial-institutions/banks
+AppKey: d29e819a-6373-4614-a155-9655020cfc7c
+
+###
+GET https://api-manager.test.sparebank1.no/api/portal/v1.3/applications/oauthclient/8a7f0ec3-fea5-4f90-9cc2-b2d90a2c0214
+Content-Type: application/json
+Authorization: Basic apiadmin N0rgesBesteDigitalBank!
+
