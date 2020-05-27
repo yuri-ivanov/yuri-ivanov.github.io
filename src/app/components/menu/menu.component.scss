@@ -1,3 +1,8 @@
+.smallmenu{
+    font-size: 0.7em !important;
+    padding: 0.3em !important;
+}
+
 .menu{
     $menu-element-space: 1em;
 
@@ -6,12 +11,15 @@
     top:0;
     text-align: right;
     background-color: #fff;
+    z-index: 99;
+    transition: 0.4s;
+    font-size: 1em;
+    padding: 1em 0.5em;
+    display: block;
 
     nav{
         display: flex;
         justify-content: flex-end;
-        padding: 1em 0.5em;
-        transition: 0.4s;
     }
     
     ul, li{
@@ -30,7 +38,6 @@
         padding: 0 0 0 0;
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 1em;
         letter-spacing: 0.03em;
         font-weight: bold;
         color: #333333;

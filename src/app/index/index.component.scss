@@ -1,12 +1,11 @@
 .intro{
     $grey-background: #F2F2F2;
 
-
     background: $grey-background;
   
     h1{
-        padding: 5em 5em 1em 5rem;
-        font-size: 2.5em;
+        padding: 5em 0em 0em;
+        font-size: 3em;
         font-weight: 700;
     }
 
@@ -16,8 +15,14 @@
     }
 
     h4{
-        padding: 0 5em 15em 5rem;
+        padding: 2em 2em;
         color: #A1A1A1;
+    }
+
+    canvas {
+        position: absolute;
+        top: 100px;
+        right: 200px;
     }
 
 }
